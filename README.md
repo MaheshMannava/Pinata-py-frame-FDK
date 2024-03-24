@@ -1,6 +1,6 @@
-# A Simple Frame For Showcasing Content
+# Farcaster Frame For Showcasing Naruto Anime Image carousel
 
-A no code solution for people who want to get a frame up with their content. This is a simple 3 file Python project so you can get started with showcasing content on Farcaster. All this requires a Pinata account, Github account and a Railway account.
+This is a simple Python project showcasing content(images.videos) on Farcaster.Built using with a Pinata account, Github account and a Railway account.
 
 ## Project Variables
 GATEWAY_URL=Your Pinata Gateway. Include https://, also do not have any slashes at the end, ex: https://mygateway.mypinata.cloud
@@ -23,28 +23,6 @@ PINATA_JWT=This is your Pinata JWT that will be used so you can get frame analyt
 
 PORT=8000 use this port in your cloud services
 
-### Example:
-
-GATEWAY_URL=https://alienframeware.mypinata.cloud
-
-PROJECT_URL=https://lyte-cycles.up.railway.app
-
-TITLE=LyteCycles
-
-EXTERNAL_URL=https://www.lytecycle.com
-
-INITIAL_IMAGE_URL=https://www.lytecycle.com/ipfs/QmRx3pGZm6ebtFmudzH8x6cMTzm5ecGUYMr56tT78ka35Q
-
-FOLDER_CID=QmdAi1v1quzrRjE2r97gmWuJpxJNAqn8gywcwrQq91gpoZ
-
-NUMBER_OF_IMAGES=9
-
-IMAGE_TYPE=jpg
-
-PINATA_JWT=eyJhbSOMEJWTFROMPINATA
-
-PORT=8000
-
 ## Python 3.12.1
 
 ## Build Command:
@@ -55,7 +33,7 @@ uvicorn main:app --host 0.0.0.0 --port $PORT
 
 ## Repo Information:
 Go to https://pinata.cloud to create a free account to set your GATEWAY_URL, FOLDER_CID, and PINATA_JWT.
-I used Railway (https://railway.app/) my web server services, they also have a free trial for 30 days.
+I used Railway (https://railway.app/) my web server services.
 
 ## Steps:
 1. Set your variables, recommend putting them into a text doc.
