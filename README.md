@@ -2,6 +2,8 @@
 
 This is a simple Python project showcasing content(images,videos) on Farcaster.Built using with a Pinata account, Github account and a Railway account.
 
+URL: https://mahesh-bikes.up.railway.app/
+
 ## Project Variables
 GATEWAY_URL=Your Pinata Gateway. Include https://, also do not have any slashes at the end, ex: https://mygateway.mypinata.cloud
 
