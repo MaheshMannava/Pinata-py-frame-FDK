@@ -1,6 +1,6 @@
 # Farcaster Frame For Showcasing Naruto Anime Image carousel
 
-This is a simple Python project showcasing content(images.videos) on Farcaster.Built using with a Pinata account, Github account and a Railway account.
+This is a simple Python project showcasing content(images,videos) on Farcaster.Built using with a Pinata account, Github account and a Railway account.
 
 ## Project Variables
 GATEWAY_URL=Your Pinata Gateway. Include https://, also do not have any slashes at the end, ex: https://mygateway.mypinata.cloud
